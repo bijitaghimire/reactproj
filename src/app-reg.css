@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+  }
+  .row{
+    display: flex;
+    
+  }
+  .smalldivision{
+    display: flex;
+    border: 5px solid rgb(241, 239, 239);
+    height: 600px;
+    width: 85%;
+    color: rgb(16, 16, 16);
+    align-self: center;
+    margin: 100px 90px;
+    border-radius: 10px;
+  }
+  
+  .register{
+      display: flex;
+       flex-direction: column;
+  }
+  
+  .col-1{
+  
+      float: left;
+      width: 50%;
+      margin: 2px;
+      align-items: center;
+      color:white;
+      background-color: #F646a0;
+      height: 595px; 
+       
+  }
+  .wel{
+    text-align: center;
+    padding: 200px;
+    font-weight: bold;
+  }
+  .acc-exist{
+    align-items: center;
+    padding-left: 200px;
+  
+  }
+  .btn-2{
+    border-radius: 2px;
+    border: 1px white solid;
+    padding: 2px;
+  }
+  
+  .Create{
+    color: #F646a0;
+  }
+  
+   .col-2{
+      align-items: center;
+      float: right;
+      width: 50%;
+      
+   }
+   .create{
+    padding: 20px 210px;
+    color: #F646a0;
+   }
+   .Form{
+    padding:70px 210px;
+   }
+  
+   .btn-1{
+      border: 1px solid black;
+      background-color:#363DA2;
+      color: white;
+      padding: 5px;
+   }
+    img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: min-content;
+    }
+    
+    .form-title{
+      font-size: medium;
+      font-weight: bold;
+    }
+  
+    .Username, .Useremail, .Password, .Confirm-password,.Phone, .Batch, .Faculty, .Role{
+      background-color: rgba(190, 190, 190, 0.427);
+    }
+  
+  
+   

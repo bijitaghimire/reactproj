@@ -1,0 +1,70 @@
+*{
+    margin: opx;
+}
+.row-login{
+    display: flex;
+}
+
+.smalldivision-login{
+    display: flex;
+    border: 5px solid rgb(241, 239, 239);
+    height: 600px;
+    width: 85%;
+    color: rgb(16, 16, 16);
+    align-self: center;
+    margin: 100px 90px;
+    border-radius: 10px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.col-1-login{
+    float: right;
+    width: 50%;
+    margin: 2px;
+    align-items: center;
+     
+}
+.signin{
+    padding: 20px 30px;
+    color: #F646a0;
+    padding:40px 190px ;
+   }
+.form-login{
+    padding:40px 190px;
+   }
+.btn-1-login{
+    background-color: #363DA2;
+    color:white;
+}
+.col-2-login{
+    background-color: #F646a0;
+    height: 595px; 
+    width: 50%;
+    float: left;
+}
+.wel-login{
+    text-align: center;
+    padding: 150px;
+    font-weight: bold;
+    color: white;
+  }
+  .no-acc{
+    color: white;
+    align-items: center;
+    padding-left: 200px;
+  }
+.btn-2-login{
+        border-radius: 2px;
+        border: 1px white solid;
+        padding: 2px;
+     
+}
+.Username, .Useremail, .Password, .Confirm-password,.Phone, .Batch, .Faculty, .Role{
+    background-color: rgba(190, 190, 190, 0.427);
+  }
+  .btn-2-login:active{
+    background-color: gray;
+  }
